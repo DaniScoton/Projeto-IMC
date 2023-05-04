@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@0,500;0,600;1,400&display=swap');
+
+body{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    background: #f3edf2;
+}
+
+.parte-1{
+    width: 50%;
+    background: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.h1{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#altura{
+    width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+#peso{
+    width: 230px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+.peso-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.altura-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao{
+    width: 190px;
+    height: 40px;
+    background-color: #ee79a4;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+}
+
+.div-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.parte-2{
+    width: 50%;
+    background-color: #f1cbd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img{
+    width: 600px;
+    height: 580px;
+    margin-top: 25px;   
+}
+
+.div-span{
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso-erro{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #f14c2f;
+    margin-top: 50px;
+}
+
+.aviso-abaixo{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #f0b850;
+    margin-top: 50px;
+}
+
+.aviso-ideal{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #4f90ae;
+    margin-top: 50px;
+}
+
+.aviso-sobrepeso{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #669e85;
+    margin-top: 50px;
+}
+
+.aviso-obs1{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #a7ad3f;
+    margin-top: 50px;
+}
+
+.aviso-obs2{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #c04f47;
+    margin-top: 50px;
+}
+
+.aviso-obs3{
+    font-weight: 600;
+    font-family:'Pathway Extreme';
+    background-color: #6e4774;
+    margin-top: 50px;
+}
