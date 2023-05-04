@@ -6,10 +6,12 @@ body{
     display: flex;
     flex-direction: row;
     background: #f3edf2;
+    height: 97vh;
 }
 
 .parte-1{
-    width: 50%;
+    width: 50vw;
+    height: 98vh;
     background: #ffffff;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -72,7 +74,8 @@ label{
 }
 
 .parte-2{
-    width: 50%;
+    width: 50vw;
+    height: 98vh;
     background-color: #f1cbd9;
     display: flex;
     justify-content: center;
@@ -82,9 +85,9 @@ label{
 }
 
 img{
-    width: 600px;
+    width: 650px;
     height: 580px;
-    margin-top: 25px;   
+    padding: 10px 5px 5px 5px;   
 }
 
 .div-span{
