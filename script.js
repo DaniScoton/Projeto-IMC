@@ -11,7 +11,7 @@ function calcularImc(){
         var resultado = peso / (altura*altura);
         console.log(resultado);
 
-        if(resultado <19){
+        if(resultado >= 0 && resultado < 19){
             aviso.innerHTML = "Você está abaixo do peso: " + Math.floor(resultado);
             aviso.className = "aviso-abaixo";
         }else if(resultado >=19 && resultado <=24){
