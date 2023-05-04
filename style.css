@@ -146,3 +146,36 @@ img{
     background-color: #6e4774;
     margin-top: 50px;
 }
+
+/*responsividade*/
+
+@media screen and (max-width: 1080px){
+
+    .parte-2{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .parte-1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 567px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    h1{
+        display: flex;
+        text-align: center;
+    }
+}
